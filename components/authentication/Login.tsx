@@ -17,7 +17,7 @@ const Login: FC = () => {
     },
     onSubmit: (values) => {
       const today = new Date();
-      const openTime = new Date("April 22, 2023 08:00:00")
+      const openTime = new Date("April 21, 2023 08:00:00")
       const closeTime = new Date("May 22, 2023 17:00:00")
       if(!values.id.trim() || !values.password.trim()){
         return setErrorMessage("กรุณากรอกรหัสนักศึกษาและรหัสผ่าน")
