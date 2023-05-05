@@ -16,8 +16,8 @@ const Home = () => {
     <div>
       <Container maxWidth="md">
         <Box display="flex" height={50} justifyContent="space-between" style={{ margin: '10px 0px' }}>
-          <img src="/images/sitlogo.png" />
-          <img height={35} style={{ margin: '10px 0px' }} src="/images/samologo.png" />
+          <img src="/sitlogo.png" />
+          <img height={35} style={{ margin: '10px 0px' }} src="/samologo.png" />
         </Box>
         <Box>
           <Typography className={classes.title} my={5} align="center">
