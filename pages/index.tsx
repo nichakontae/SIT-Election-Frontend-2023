@@ -22,7 +22,7 @@ const Home = () => {
         <Box>
           <Typography className={classes.title} my={5} align="center">
             ระบบเลือกตั้ง คณะกรรมการสโมสรนักศึกษา คณะเทคโนโลยีสารสนเทศ มจธ.
-            ปีการศึกษา 2565
+            ปีการศึกษา 2566
           </Typography>
         </Box>
         <Login />
