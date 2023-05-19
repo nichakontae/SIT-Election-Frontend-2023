@@ -67,14 +67,13 @@ const Submit = () => {
   return (
     <div>
       <Navbar/>
-      <Container maxWidth="sm">
+      <Container maxWidth="md">
         <Box mt={5}><Typography align="center">ตรวจสอบการลงคะแนนเสียงเลือกตั้ง</Typography></Box>
         <Typography align="center">คุณเลือก</Typography>
         <Typography align="center">
           <strong>{voteStatus(user ? user.voted : -2)}</strong>
         </Typography>
-        <Box display="flex" mt={3} mb={3} justifyContent="space-around">
-          
+        <Box display="flex" mt={3} mb={3} justifyContent="space-evenly">
           <Button
             style={{ backgroundColor: "#4698CA" }}
             variant="contained"

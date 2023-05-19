@@ -16,21 +16,21 @@ const Layout: FC<ILayout> = (props) => {
     <div>
       <Navbar />
       <Container maxWidth='xs'>
-        <Box mt={12}>
+        <Box mt={5}>
           <Typography align='center'>{title}</Typography>
         </Box>
         {image && (
           <Box display='flex' mt={3} justifyContent='center'>
-            <Box border={2} borderColor='#326295' width={202} borderRadius={4}>
+            {/* <Box border={2} borderColor='#326295' width={402} borderRadius={4}> */}
               <Box
-                height={260}
+                height={360}
                 display='flex'
                 justifyContent='center'
                 alignItems='center'>
-                <img src={image} style={{ width: '180px' }} />
+                <img src={image} style={{ width: '280px' }} />
               </Box>
             </Box>
-          </Box>
+          // </Box>
         )}
         {props.children}
         <Box mt={3}>
